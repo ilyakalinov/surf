@@ -3,8 +3,8 @@ $(function(){
     $('.header__slider').slick({
         Infinite: true,
         fade: true,
-        prevArrow: '<img class="slider-arrows slider-arrows-right" src="../img/arrow-left.svg">',
-        nextArrow: '<img class="slider-arrows slider-arrows-left" src="../img/arrow-right.svg">',
+        prevArrow: '<img class="slider-arrows slider-arrows-right" src="./img/arrow-left.svg">',
+        nextArrow: '<img class="slider-arrows slider-arrows-left" src="./img/arrow-right.svg">',
         asNavFor: '.slider__nav'
     });
     $('.slider__nav').slick({
@@ -16,8 +16,8 @@ $(function(){
         infinite: true,
         slidesToShow: 4,
         slidesToScroll: 1,
-        prevArrow: '<img class="slider-arrows slider-arrows-right" src="../img/arrow-left.svg">',
-        nextArrow: '<img class="slider-arrows slider-arrows-left" src="../img/arrow-right.svg">',
+        prevArrow: '<img class="slider-arrows slider-arrows-right" src="./img/arrow-left.svg">',
+        nextArrow: '<img class="slider-arrows slider-arrows-left" src="./img/arrow-right.svg">',
         asNavFor: '.slider__map'
     });
     $('.slider__map').slick({
@@ -39,8 +39,8 @@ $(function(){
         slidesToScroll: 1, 
         fade: true,
         asNavFor: '.shop__slider-name',
-        prevArrow: '<img class="slider-arrows slider-arrows-right" src="../img/arrow-left.svg">',
-        nextArrow: '<img class="slider-arrows slider-arrows-left" src="../img/arrow-right.svg">',
+        prevArrow: '<img class="slider-arrows slider-arrows-right" src="./img/arrow-left.svg">',
+        nextArrow: '<img class="slider-arrows slider-arrows-left" src="./img/arrow-right.svg">',
     });
     $('.menu__btn').on('click', function(){
         $('.menu').toggleClass('active');
